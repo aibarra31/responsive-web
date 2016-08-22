@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Freeland';
+    src: url(Freeland.eot?#iefix) format('embedded-opentype'),
+    url(Freeland.woff) format('woff'),
+    url(Freeland.ttf)  format('truetype');
+    font-weight:400;
+}

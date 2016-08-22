@@ -1,0 +1,13 @@
+.modal 							{background:rgba(0,0,0,.8);width:100vw;height:100vh;position:fixed;top:0;left:0;z-index:10;overflow:auto;}
+.modal .modal-inner-wrapper			{height:100%;display:table;width:100%;}
+.modal .modal-content-wrapper	{display:table-cell;vertical-align:middle;text-align:center;}
+.modal .modal-content 			{max-width:90vw;display:inline-block;background:#fff;position:relative;padding:.5rem;}
+.modal .modal-close				{position:absolute;top:0;right:0;cursor:pointer;}
+.modal .modal-prev-wrapper,
+.modal .modal-next-wrapper		{position:absolute;top:0;bottom:0;}
+.modal .modal-prev-wrapper		{left:0;}
+.modal .modal-next-wrapper		{right:0;}
+.modal .modal-prev,
+.modal .modal-next 				{display:table;height:100%;}
+.modal .modal-prev-button-wrapper,
+.modal .modal-next-button-wrapper	{display:table-cell;vertical-align:middle;cursor:pointer;}

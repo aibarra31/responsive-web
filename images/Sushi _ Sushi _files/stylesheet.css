@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'CenturyGothic';
+	src: url(CenturyGothic.eot?#iefix) format('embedded-opentype'),
+	url(CenturyGothic.woff) format('woff'),
+	url(CenturyGothic.ttf)  format('truetype'),
+	url(CenturyGothic.svg#CenturyGothic) format('svg');
+	font-weight:400;
+}
+
+@font-face {
+	font-family: 'CenturyGothic-Bold';
+	src: url(CenturyGothic-Bold.eot?#iefix) format('embedded-opentype'),
+	url(CenturyGothic-Bold.woff) format('woff'),
+	url(CenturyGothic-Bold.ttf)  format('truetype'),
+	url(CenturyGothic-Bold.svg#CenturyGothic-Bold) format('svg');
+	font-weight:400;
+}

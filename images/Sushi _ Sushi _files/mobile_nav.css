@@ -1,0 +1,31 @@
+.ccm-toolbar-visible #c5 #mobile-menu	{top:49px;}
+#c5 #mobile-menu .toggle	{background:#CC3300 ;color:#fff;}
+#c5 #mobile-menu,
+#c5 #mobile-menu li a		{background:#bdc3c7;color:#CC3300 ;}
+#c5 #mobile-menu li.nav-selected > a,
+#c5 #mobile-menu li a:hover {background-color:#CC3300 ;color:#fff;}
+#c5 #mobile-menu li a		{border-bottom:1px solid rgba(0,0,0,.05);}
+
+#c5 #mobile-menu			{text-transform:lowercase;width:80%;max-width:300px;z-index:10;position:fixed;right:100%;top:0;bottom:0;-webkit-box-shadow: 0 0 20px rgba(0,0,0,.25);-moz-box-shadow: 0 0 20px rgba(0,0,0,.25);box-shadow: 0 0 20px rgba(0,0,0,.25);border-right:1px solid #fff;}
+#c5 #mobile-menu .wrapper 	{overflow:auto;height:100%;}
+#c5 #mobile-menu .toggle	{cursor:pointer;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:absolute;top:0;left:100%;text-align:center;line-height:1.6em;width:1.5em;font-size:35px;border-left:1px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.25);border-radius:0 0 2px 0;}
+#c5 #mobile-menu .toggle i	{line-height:normal;}
+#c5 #mobile-menu ul			{padding:0;margin:0;list-style:none;}
+#c5 #mobile-menu li			{position:relative;z-index:1;display:block;}
+#c5 #mobile-menu li a		{font-size:18px;display:block;padding:.75em 2em;cursor:pointer;transition:.15s;}
+#c5 #mobile-menu .fa		{position: relative;top:-2px;}
+#c5 #mobile-menu .nav > li > .dropdown-wrapper > ul > li > a {padding-left:4em;}
+#c5 #mobile-menu .nav > li > .dropdown-wrapper > ul > li > .dropdown-wrapper > ul > li > a {padding-left:5.5em;}
+
+#c5 #mobile-menu .nav li:hover > i,
+#c5 #mobile-menu .nav li.nav-selected > i   {color:#fff;}
+#c5 #mobile-menu .nav i                     {position:absolute;right:0;top:0;cursor:pointer;color:#CC3300;z-index:1;padding:18px;}
+
+#c5 #mobile-menu .dropdown-wrapper {display:none;}
+
+/** SOCIAL ICONS **/
+#c5 #mobile-menu .social-nav-block ul               {display:table!important;width:100%;table-layout:fixed;}
+#c5 #mobile-menu .social-nav-block ul li            {display:table-cell;}
+#c5 #mobile-menu .social-nav-block ul li a          {width:auto;height:auto;border:none;padding:0;backgorund-color:none!important;background:none!important;}
+#c5 #mobile-menu .social-nav-block ul li a .icon1   {margin:0;}
+#c5 #mobile-menu .social-nav-block ul li .icon2     {display:none;}
