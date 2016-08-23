@@ -177,7 +177,17 @@ img {
   }
 
 li{
+  /*
+  Invalid font value
+  docs: https://developer.mozilla.org/en-US/docs/Web/CSS/font
+  Also, font-size changes the size of the text not the type of font.
   font-size: times;
+  */
+
+  /*This is the correct implementation: */
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  /*however, there is another property that is overriding this rules.*/
+
 }
   .navigation li:last-of-type a {
     border-bottom: none;
