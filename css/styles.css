@@ -1,6 +1,7 @@
 body{
   display:flex;
   flex-flow:column;
+  background-color: skyblue;
 }
 .header{
   flex:0 0;
@@ -10,15 +11,17 @@ body{
   display: flex;
   flex-direction: row;
   width: 100%;
+
 }
 .container {
   flex:0 0;
   padding: 0;
-  margin: 0 auto;
+  margin: 1em auto;
   overflow: hidden;
   background: red;
   width: 60%;
   left: 20%;
+  border: 6px solid white;
 }
 
 
@@ -48,9 +51,11 @@ body{
 
 .lunch {
   flex-direction: column;
-  font-family: 'Sail', cursive;
-  font-size: 14px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
   width: 50%;
+  text-transform: lowercase;
+  padding-left: 2em;
 }
 
  .dinner {
@@ -60,7 +65,7 @@ body{
 .ul2 {
   list-style: left;
   flex: 0 2 auto;
-  font-family: 'Sail', cursive;
+  font-family: 'Philosopher', sans-serif;
   font-size: 16px;
 
 }
@@ -72,21 +77,27 @@ body{
   flex-direction: row;
   text-align: center;
   justify-content: center;
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 .specials h3 {
   width: 100%;
   align-items: center;
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 .specials p {
   width: 100%;
   align-content: center;
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 .specials img {
   width: 60%;
-
+  border: 6px solid white;
 }
 
 .images {
@@ -104,8 +115,9 @@ img {
 .navigation {
   list-style: none;
   margin: 0;
+  border: 6px solid white;
 
-  background: deepskyblue;
+  background: black;
 
   /*display: -webkit-box;
   display: -moz-box;
@@ -126,12 +138,20 @@ img {
   display: block;
   padding: 1em;
   color: white;
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 
 .navigation a:hover {
   background: darken(deepskyblue, 2%);
 }
+
+#logo{
+  width:50%;
+
+  }
+
 
 @media all and (max-width: 800px) {
   .navigation {
@@ -180,6 +200,12 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  #logo{
+    width:50%;
+    padding-left: 25%;
+    }
+
 .lunch {
   width: 100%;
 }
