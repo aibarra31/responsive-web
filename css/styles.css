@@ -144,7 +144,10 @@ img {
 
 
 .navigation a:hover {
-  background: darken(deepskyblue, 2%);
+
+  /*Darken is not a function: */
+  /*background: darken(deepskyblue, 2%);*/
+  background-color: deepskyblue;
 }
 
 #logo{
