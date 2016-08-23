@@ -152,7 +152,10 @@ img {
 
 #logo{
   width:50%;
-
+  /*
+  The logo gets really small when the browser gets smaller,
+  try to change this inside the media query.
+  */
   }
 
 
@@ -191,7 +194,6 @@ li{
 }
   .navigation li:last-of-type a {
     border-bottom: none;
-
   }
 }
 
