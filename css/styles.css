@@ -66,6 +66,7 @@ body{
    width: 50%;
  }
 
+/*Try using more meaningful class names*/
 .ul2 {
   list-style: left;
   flex: 0 2 auto;
