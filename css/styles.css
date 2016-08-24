@@ -52,6 +52,10 @@ body{
 .lunch {
   flex-direction: column;
   font-family: 'Philosopher', sans-serif;
+  /*
+  You don't have to specify the same font family more than once,
+  just do it once in the body selector and ti will be inherited.
+  */
   font-size: 16px;
   width: 50%;
   text-transform: lowercase;
@@ -62,6 +66,7 @@ body{
    width: 50%;
  }
 
+/*Try using more meaningful class names*/
 .ul2 {
   list-style: left;
   flex: 0 2 auto;
@@ -144,12 +149,18 @@ img {
 
 
 .navigation a:hover {
-  background: darken(deepskyblue, 2%);
+
+  /*Darken is not a function: */
+  /*background: darken(deepskyblue, 2%);*/
+  background-color: deepskyblue;
 }
 
 #logo{
   width:50%;
-
+  /*
+  The logo gets really small when the browser gets smaller,
+  try to change this inside the media query.
+  */
   }
 
 
@@ -174,11 +185,20 @@ img {
   }
 
 li{
+  /*
+  Invalid font value
+  docs: https://developer.mozilla.org/en-US/docs/Web/CSS/font
+  Also, font-size changes the size of the text not the type of font.
   font-size: times;
+  */
+
+  /*This is the correct implementation: */
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  /*however, there is another property that is overriding this rules.*/
+
 }
   .navigation li:last-of-type a {
     border-bottom: none;
-
   }
 }
 

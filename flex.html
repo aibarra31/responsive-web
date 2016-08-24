@@ -6,20 +6,44 @@
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <style type="text/css">
+    /*Unnessesary style tags!*/
     </style>
   </head>
   <body>
-
+    <!--
+        replace divs with semantic elements,
+        example: <header>   </header>
+    -->
     <div class="header">
+       <!-- you could have wrapped the ul element inside a <nav> </nav> -->
       <ul class="navigation">
+
+        <!--
+
+        IDs cannot be repeated:
+         here you have a list item and an image with id of logo, if you wish
+         to have more than one element with the same set of attributes, use
+         class="logo" instead...
+
+         Also remember to change the CSS selector from #logo to .logo
+
+        -->
         <li id="logo">
         <li><img src ="images/sushi-logo.svg" id="logo" alt="sushi-logo"></li>
+        <!-- end of comment  -->
+
         <li><a href="#">About</a></li>
         <li><a href="#">Menu</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
+
+    <!--
+    Remember to use semantic containers/elements instead of divs.
+    HINT: <section> </section> is a good one.
+    -->
     <div class="container">
+      <!-- Nice way to implement a carousel using lists!  -->
       <ul class="carousel">
         <li class="images">
           <img src ="images/western_sushi.jpg" alt="western_sushi">
@@ -32,6 +56,7 @@
         </li>
       </ul>
     </div>
+     <!-- Semantics semantics... <article></article> -->
   <div class="main">
       <div class="lunch">
         <h2>Lunch</h2>
@@ -53,14 +78,14 @@
   </div>
       <div class="specials">
     <h3>Specials</h3>
-
     <p>Fiery shrimp roll: Spicy motoyaki sauce, cucumber</p>
     <p>Philadelphia roll:smoked salmon, cream cheese, cucumber</p>
+    <!-- Try to design a 3x3 gallery here instead of using a picture. -->
     <img src ="images/sushi_special.jpg" alt="sushi_special">
 
   </div>
 <footer>
-
+  <!-- Try to add some content to the footer  -->
 </footer>
   </body>
 </html>
